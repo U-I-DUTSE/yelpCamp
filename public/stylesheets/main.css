@@ -1,0 +1,19 @@
+.thumbnail img{
+    width: 100%;
+}
+.thumbnail{
+    padding: 0;
+}
+#caption{
+    padding: 9px;
+}
+#kwana{
+    margin: 6px;
+}
+#delete-form{
+    display: inline;
+}
+.jumbotron{
+    margin-top: 20px;
+    background: rgb(189, 183, 183);
+}

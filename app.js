@@ -17,7 +17,7 @@ var commentRoutes       = require("./routes/comments"),
     indexRoutes         = require("./routes/index")
 
 // Online MongoDB connection string stored in environment variables for security
-const mongoUri = process.env.MONGO_URI || "mongodb+srv://usmandutse:%40Dutse@cluster0.3wu3n.mongodb.net/";
+const mongoUri = process.env.MONGO_URI || "mongodb+srv://usmandutse:%40Dutse@cluster0.3wu3n.mongodb.net/test";
 
 // Connect to MongoDB using the connection string
 mongoose.connect(mongoUri, {
